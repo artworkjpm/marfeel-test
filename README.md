@@ -3,7 +3,8 @@ This test was quite tough, the biggest challenge was using d3.js for the first t
 
 ### Things I like:
 * I made two data csv's for the line graph.
-* I understand d3.js better now, maybe I would use another data visualisation tool next time, it seems kind of old and clunky with d3.js. 
+* I understand d3.js better now, maybe I would use another data visualisation tool next time, it seems kind of old and clunky with d3.js.
+* It is mobile responsive!
 
 ### Things I dislike:
 * I spent a long time on this, like 15hrs altogether. I did this when I wasn't doing other paid projects. I would have liked to have put the the js files into one js file, making a pie chart component and mapping the data, maybe through recursion. As you mentioned not to use vue.js or any framework, this would be a challenge. 
