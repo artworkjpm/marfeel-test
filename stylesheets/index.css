@@ -1,0 +1,141 @@
+body {
+  font-family: Arial, Helvetica, sans-serif; }
+
+.graphs {
+  margin: 0 auto;
+  width: 600px;
+  zoom: 0.8;
+  position: relative; }
+
+.line {
+  fill: #f2fcf2;
+  stroke: #91dc48;
+  stroke-width: 3; }
+
+.line2 {
+  fill: #f7fbfb;
+  stroke: #7ad0e8;
+  stroke-width: 3; }
+
+.line3 {
+  fill: #fefbf4;
+  stroke: #f6cb31;
+  stroke-width: 3; }
+
+/* Style the dots by assigning a fill and stroke */
+.dot {
+  fill: #ffab00;
+  stroke: #fff; }
+
+.line-graph {
+  position: absolute;
+  top: 322px;
+  left: 110px;
+  z-index: -10;
+  clip-path: circle(25% at 20% -6%); }
+
+.line-graph-imp {
+  position: absolute;
+  top: 900px;
+  left: 110px;
+  z-index: -10;
+  clip-path: circle(25% at 20% -6%); }
+
+.line-graph-vis {
+  position: absolute;
+  top: 1480px;
+  left: 110px;
+  z-index: -10;
+  clip-path: circle(25% at 20% -6%); }
+
+.inner-circle2 {
+  fill: #a0a0a0;
+  font-size: 2.5em; }
+
+.inner-circle3 {
+  fill: #505050;
+  font-size: 3.5em; }
+
+.bottom-text {
+  font-weight: bold;
+  margin-top: -5em;
+  font-size: 1.5em;
+  /* Clear floats after the columns */ }
+  .bottom-text .column {
+    float: left;
+    width: 50%; }
+  .bottom-text .column-right {
+    text-align: right; }
+  .bottom-text .row:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .bottom-text p,
+  .bottom-text span {
+    color: #505050;
+    font-weight: normal;
+    margin-top: 5px; }
+  .bottom-text span {
+    color: #a0a0a0;
+    margin-left: 20px; }
+
+hr {
+  border: 2px solid #e4e4e4;
+  position: relative;
+  top: -10px; }
+
+.carousel {
+  position: relative;
+  width: 800px;
+  margin: 0 auto; }
+
+.carousel-indicators {
+  bottom: -40px; }
+
+.carousel-indicators li {
+  position: relative;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 30px;
+  height: unset;
+  margin-right: 3px;
+  margin-left: 23px;
+  text-indent: unset;
+  background-color: unset;
+  color: #bebebe; }
+
+.carousel-indicators li:hover {
+  color: grey; }
+
+.carousel-indicators .active {
+  background-color: unset;
+  color: grey; }
+
+.fa-angle-right, .fa-angle-left {
+  font-size: 3em;
+  color: #bebebe; }
+
+.fa-angle-right:hover, .fa-angle-left:hover {
+  color: grey; }
+
+.carousel-control-next, .carousel-control-prev {
+  width: 35%;
+  opacity: unset; }
+
+.carousel-control-next:hover, .carousel-control-prev:hover {
+  opacity: unset; }
+
+@media (max-width: 468px) {
+  .mobile {
+    width: unset;
+    zoom: 0.7; }
+
+  .bottom-text {
+    width: 85%;
+    margin-left: 50px; }
+
+  .carousel-control-next, .carousel-control-prev {
+    width: unset; } }
+
+/*# sourceMappingURL=index.css.map */
